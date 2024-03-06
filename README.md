@@ -68,8 +68,9 @@ package main
 import (
 	"encoding/xml"
 	"fmt"
-	"main/gosoapware" // Importing your custom gosoapware package
 	"net/http"
+
+	"github.com/emil-petras/gosoapware" // Importing gosoapware module
 )
 
 // MyType represents the structure of your expected SOAP request body.
